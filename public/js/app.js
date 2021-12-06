@@ -18,7 +18,7 @@ weatherform.addEventListener('submit',(e)=>{
         }
         else{
             messageOne.textContent=data.location
-            messageTwo.textContent='weather description:-'+data.forecast.weather_descriptions+' Temprature:-'+data.forecast.temprature+' Feels like:-'+data.forecast.feelslike
+            messageTwo.textContent='weather description:-'+data.forecast.weather_descriptions+'|| Temprature:-'+data.forecast.temprature+' ||Feels like:-'+data.forecast.feelslike+'|| observation_time:-'+data.forecast.observation_time
             
         }
     })
